@@ -1,3 +1,7 @@
+lifes = 3
+
+curLevel = getLevel(level:FIRST)
+
 if control.left then
     go left
 else if control.right then 
