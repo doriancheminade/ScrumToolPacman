@@ -1,0 +1,16 @@
+if control.left then
+    go left
+else if control.right then 
+    go right
+else if control.down then
+    go down
+else if control.up then 
+    go up
+end if
+
+if pacman.pos eq fantom.pos then
+    lifes--
+    curLevel.start
+end if
+
+
