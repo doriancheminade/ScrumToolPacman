@@ -1,0 +1,4 @@
+while true do
+    path = lookForPacman()
+    go path.direction
+done
